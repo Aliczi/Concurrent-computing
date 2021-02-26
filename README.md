@@ -1,11 +1,11 @@
 # Concurrent-computing
 
-Lotniskowiec\n
+Lotniskowiec  
 Na lotniskowcu ląduje i startuje K samolotów. W tym celu potrzebują wyłącznego dostępu do pasa. Lotniskowiec może pomieścić pewną ustaloną liczbę N samolotów. 
 Jeśli K < N, wówczas priorytet w dostępie do pasa mają samoloty lądujące.
 Cel zadania: synchronizacja samolotów (pas i miejsce na lotnisku to zasoby).
 
-Czytelnicy i pisarze (ReadersWriters)
+Czytelnicy i pisarze (ReadersWriters)  
 Wersja problemu czytelników i pisarzy, gdzie:
 1. jest ustalona liczba procesów N;
 2. każdy proces działa naprzemiennie w dwóch fazach: fazie relaksu i fazie korzystania z czytelni;
