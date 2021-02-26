@@ -6,7 +6,7 @@ Jeśli K < N, wówczas priorytet w dostępie do pasa mają samoloty lądujące.
 Cel zadania: synchronizacja samolotów (pas i miejsce na lotnisku to zasoby).
 
 Czytelnicy i pisarze (ReadersWriters)  
-Wersja problemu czytelników i pisarzy, gdzie:
+Wersja problemu czytelników i pisarzy, gdzie:  
 1. jest ustalona liczba procesów N;
 2. każdy proces działa naprzemiennie w dwóch fazach: fazie relaksu i fazie korzystania z czytelni;
 3. w fazie relacji proces może (choć nie musi) zmienić swoją rolę; z pisarza na czytelnika lub z czytelnika na pisarza;
