@@ -63,7 +63,7 @@ int main()
     int K=3*sizeof(struct buf_elem);        //Liczba książek na półce
     struct buf_elem elem;
     struct msqid_ds ss;
-    ss.msg_qbytes = K;
+    ss.msg_qnum = K;
 
     //Tworzenie tablicy z dwoma semaforami
     id_sem = semget(key, 2, IPC_CREAT|0600); 
